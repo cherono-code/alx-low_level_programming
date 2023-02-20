@@ -7,8 +7,7 @@
 
 int main(void)
 {
-int i = 'a';
-	for (i = 'a'; i <= 'z'; i++)
-		putchar (i : \n);
+	putchar(65);
+	putchar("\n");
 	return (0);
 }
