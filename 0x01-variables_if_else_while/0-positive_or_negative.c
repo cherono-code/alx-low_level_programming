@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Print whether the number stored is positive or negative
- * Return: Always (Success)
- *
+ * main - Entry point
+ * Description: 'check for number if it is positive or negative'
+ * Return: Always 0
  */
 
 int main(void)
@@ -28,4 +28,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+}
 
