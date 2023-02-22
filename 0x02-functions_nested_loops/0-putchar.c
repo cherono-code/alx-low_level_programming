@@ -1,13 +1,15 @@
 #include "main.h"
 	/**
 	 * main - print _putchar
-	 * is written by mbah
+	 * is written by cherono
+	 * Description: 'print putchar followed by the next line'
 	 * Return: 0
 	 */
 
 
 	int main(void)
 	{
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
