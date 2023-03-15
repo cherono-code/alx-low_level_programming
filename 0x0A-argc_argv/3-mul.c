@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * _atoi - converts a string to an integer
  * @s: string to be converted
@@ -53,27 +54,25 @@ int _atoi(char *s)
  * Return: 1
  */
 
-int main(int argc, char *arg[])
-
-	int no1, no2, result;
+int main(int argc, char *argv[])
+{
+	int num1, num2, product;
 
 	if (argc == 2)
 	{
-		no1 = _atoi(argv[1];
-		no2 = _atoi(argv[2];
-		result = no1 * no2;
+		num1 = _atoi(argv[1]);
+		num2 = _atoi(argv[2]);
+		product = num1 * num2;
 
-		printf("%d\n", result);
-
+		printf("%d\n", product);
+		scanf("%d\n", &product);
 		return (0);
 	}
-
-	else if (arg < 3 || argc > 3)
+	else if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
-	
-
 		return (1);
-		}	
+	}
+	return (1);
 }
 
